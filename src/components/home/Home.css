@@ -1,0 +1,51 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right of the page */
+    height: 100vh;
+    background-image: url('../../../public/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .home-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    justify-content: flex-end; /* Align content to the right */
+  }
+  
+  .content {
+    width: 45%;
+    text-align: left;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

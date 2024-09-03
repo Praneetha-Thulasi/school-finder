@@ -1,0 +1,51 @@
+/* SchoolDetails.css */
+
+.school-details-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.school-details-card {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff; /* Added background color for better visibility */
+}
+
+.school-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Improved text color for better readability */
+}
+
+.school-info {
+  text-align: left;
+  display: flex; /* Adjusted layout for better alignment */
+  justify-content: space-between; /* Added space between school details and image */
+  margin-top: 20px;
+}
+
+.school-info p {
+  margin: 10px 0;
+  color: #555; /* Changed text color for better contrast */
+}
+
+.school-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.school-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for image cards */
+}
+

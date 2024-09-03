@@ -1,0 +1,75 @@
+/* SchoolList.css */
+
+.school-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.school-card {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Ensure that the card doesn't show content outside its boundaries */
+}
+
+.school-card:hover {
+  transform: scale(1.05);
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover; /* Maintain aspect ratio for images within the card */
+}
+
+.school-info {
+  text-align: left;
+}
+
+.school-details {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.show-details {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-details:hover {
+  background-color: #138496;
+}
+
+.close-details-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-details-btn:hover {
+  background-color: #c82333;
+}
